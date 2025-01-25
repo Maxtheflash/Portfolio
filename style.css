@@ -28,7 +28,7 @@ nav ul {
   display: flex;
   justify-content: center;
   background-color: #333;
-  padding: 1rem 0;
+  padding: 10rem;
 =======
   background-color: #121212; /* Dark background */
   color: #e0e0e0; /* Light text */
@@ -417,5 +417,5 @@ footer .socials a {
 footer .socials a:hover {
   color: #66ffe6; /* Lighter shade for hover effect */
 }
->>>>>>> Stashed changes
+
 }
