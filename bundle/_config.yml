@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Branden in a Flash: Developer Portfolio
+title: Branden in a Flash Developer Portfolio
 email: Maxtheflash@yahoo.com
 description: Coding the future, One line at a time
 baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
@@ -43,7 +43,6 @@ social:
   twitter: "https://twitter.com/Maxytheflash"
   github: "https://github.com/Maxtheflash"
   linkedin: "https://linkedin.com/in/brandenmaxwell"
-  
  footer:
   links:
     - label: Twitter
