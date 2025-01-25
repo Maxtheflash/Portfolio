@@ -1,6 +1,6 @@
 layout: page
-title: About
-permalink: /about/
+title: home
+permalink: /home/
 --------------------
 <!DOCTYPE html>
 <html lang="en">
@@ -9,41 +9,106 @@ permalink: /about/
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Branden in a Flash: Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
 </head>
 <body>
   <header>
     <div class="header-content">
       <h1>Branden Maxwell</h1>
       <p>Coding the future, One line at a time</p>
+      <nav> <!-- Navigation w/ link to projects.html page -->
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     </div>
   </header>
 
+<!-- About section -->
   <section class="about">
     <h2>About Me</h2>
-    <p>THi, I’m Branden! I’m a software developer with experience in Java, Python,
-    .NET, and C++. I enjoy building innovative solutions that make a difference. You can find me outdoors fishing, kayaking, or visiting new places in my free time.</p>
+   <div class="carousel">
+      <img src=""C:\Users\Branden\Portfolio\Portfolio\images\Profile Photo.jpg"" alt="Profile Photo" class="carousel-photo">
+      <img src=""C:\Users\Branden\Portfolio\Portfolio\images\professional.png"" alt="Professional Photo" class="carousel-photo hidden">
+      <img src=""C:\Users\Branden\Portfolio\Portfolio\images\shark.jpg"" alt="Photo 3" class="carousel-photo hidden">
+    </div>
+    <p> Hi, I’m Branden! I’m a junior software developer with experience in Java, Python,
+    .NET, and C++. I recently graduated from Stark State College with an associate degree in business help desk and computer support. I am currently pursuing a degree in Computer Science and Programming and Database design. I enjoy building innovative solutions that make a difference and furthering my knowledge of artificial intelligence. You can find me outdoors fishing, kayaking, or visiting new places in my free time.</p>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="#">Project 1</a>: A description of your project.</li>
-      <li><a href="#">Project 2</a>: A description of another project.</li>
-      <li><a href="#">Project 3</a>: Another project description.</li>
-    </ul>
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-container">
+      <!--Degree section-->
+      <div class="education-item">
+        <h3>Associate Degree</h3>
+      <p><strong>Institution:</strong> Stark State College</p>
+      <p><strong>Major:</strong> Help Desk and Computer Support</p>
+      <p><strong>Minor:</strong> Computer Science</p>
+      <p><strong>Achievements:</strong> Dean's List, President's List</p>
+      </div>
+      <div class="education-item">
+        
+    <!-- Certifications and Courses -->
+    <div class="education-item">
+      <h3>Continuing Education Certifications (CEC)</h3>
+      <ul>
+        <li>Artificial Intelligence Fundamentals</li>
+        <li>Artificial Intelligence</li>
+        <li>Computer Maintenance and Desktop Support</li>
+        <li>Help Desk and Computer User Support</li>
+        <li>Microsoft SQL Server</li>
+      </ul>
+      </div>
+    </div>
   </section>
 
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out!</p>
-    <ul>
-      <li>Email: your.email@example.com</li>
-      <li>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></li>
-    </ul>
-  </section>
+  <!--Contact section-->
+ <section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you'd like to get in touch, feel free to send me a message or download my resume below.</p>
+
+  <!-- Contact Form -->
+  <form action="https://formsubmit.co/maxtheflash@yahoo.com" method="POST" class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- Resume Section -->
+  <div class="resume-section">
+    <h3>Resume Download</h3>
+    <a href="C:\Users\Branden\Portfolio\Portfolio\assets\Branden Maxwell Resume.pdf" download class="resume-button">Download My Resume</a>
+  </div>
+</section>
 
   <footer>
-    <p>© 2025 Your Name</p>
+    <!--Added socials to footer-->
+    <p>© 2025 Branden Maxwell</p>
+    
+    <div class="socials">
+    <a href="https://github.com/maxtheflash" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/brandenmaxwell" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/Maxytheflash" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    
+  </div>
   </footer>
 </body>
 </html>
