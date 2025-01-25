@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AlarmClock_Maxwell", "AlarmClock_Maxwell.vbproj", "{2249544A-D4E6-41EC-B261-371D0BF56453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2249544A-D4E6-41EC-B261-371D0BF56453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2249544A-D4E6-41EC-B261-371D0BF56453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2249544A-D4E6-41EC-B261-371D0BF56453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2249544A-D4E6-41EC-B261-371D0BF56453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B332C7B4-95FA-4D25-821D-0397F35E7C38}
+	EndGlobalSection
+EndGlobal

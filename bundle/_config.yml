@@ -32,18 +32,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-nav:
-  - title: Home
-    url: "/home/"
-  - title: About
-    url: "/about/"
-  - title: Portfolio
-    url: "/portfolio/"
-  - title: Current Projects
-    url: "/currentprojects/"
-  - title: Contact
-    url: "/contact/"
-
 author:
   name: Branden Maxwell
   bio: Hi, I’m Branden! I’m a software developer with experience in Java, Python,
