@@ -48,21 +48,24 @@ nav ul {
   justify-content: center;
   background-color: #121212; /* Dark background */
   color: #e0e0e0; /* Light text */
-  padding: 10rem;
+  padding: 10px 20px;
+  margin: 0;
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: #e0e0e0;
   text-decoration: none;
   font-size: 1.1rem;
+  padding: 5px 10px;
+  display: inline-block;
 }
 
 nav ul li a:hover {
-  color: #f4f4f4;
+  background-color: #7FFF00;
 }
 
 /* Logo Styling */
@@ -274,6 +277,11 @@ footer .socials a:hover {
   section {
     padding: 15px;
     margin: 10px;
+	flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+  nav ul li {
+    margin: 5px 0; /* Reduce margin between items when stacked */
   }
 
   header h1 {
