@@ -2,6 +2,10 @@
 * {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 469be107fbbff6409bd311d4a3247a5437da1baa
   box-sizing: border-box;
 }
 
@@ -96,6 +100,46 @@ section h2 {
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+=======
+section p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #00ffcc; /* Accent color */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #66ffe6;
+}
+
+/* Unordered List Styles */
+ul {
+
+  list-style-type: none;
+}
+
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #f4f4f4;
+}
+
+>>>>>>> 469be107fbbff6409bd311d4a3247a5437da1baa
 /* Projects Section */
 #projects {
   padding: 2rem 5%;
@@ -175,7 +219,137 @@ footer .socials a {
 }
 
 footer .socials a:hover {
+<<<<<<< HEAD
   color: #58a6ff; /* Bright grey-blue accent */
+=======
+  color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1f1f1f; /* Footer matches the header */
+  color: #999999;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #333;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+  
+
+/* Carousel Styling */
+.carousel {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.carousel-photo.hidden {
+  opacity: 0;
+}
+
+
+#education {
+  padding: 50px 20px;
+  background-color: #2c2c3e;
+  color: #fff;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-item {
+  background-color: #3a3a5c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.education-item h3 {
+  margin: 0 0 10px;
+  color: #a5d6ff;
+  font-size: 1.5em;
+}
+
+.education-item p {
+  margin: 5px 0;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+  text-align: left;
+}
+
+.education-item ul li {
+  margin-bottom: 5px;
+  font-size: 0.95em;
+}
+
+#contact {
+  padding: 50px 20px;
+  background-color: #1f1f2e;
+  color: #fff;
+  text-align: center;
+>>>>>>> 469be107fbbff6409bd311d4a3247a5437da1baa
 }
 
 /* Contact Form Styles */
