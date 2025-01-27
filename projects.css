@@ -52,16 +52,17 @@ nav a:hover {
 
 /* Style the project cards with specific borders, shadows, etc. */
 .project-card {
+  display: block;
   background-color: #2a2a2a; /* Dark grey background for project cards */
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   margin: 20px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+  word-wrap: break-word; /* Allow text to wrap within the container */
+  white-space: normal; /* Ensure text wraps, rather than staying in a single line */
+  font-size: 1em; /* Adjust font size for better readability */
+  /* Style for the Catch Keeper section */
 }
 
 .project-card h3 {
