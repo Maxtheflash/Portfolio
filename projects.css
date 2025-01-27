@@ -2,7 +2,8 @@
 
 /* General body styles */
 body {
-  background-color: #f4f4f9;
+  background-color: #1a1a1a; /* Very dark grey background */
+  color: #d1d1d1; /* Light grey text color for readability */
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
 
 /* Style the navigation bar */
 nav {
-  background-color: #333;
+  background-color: #333; /* Dark grey nav background */
   padding: 10px 0;
 }
 
@@ -27,13 +28,13 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: #d1d1d1; /* Light grey text for nav links */
   text-decoration: none;
   font-size: 1.2em;
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #1e90ff; /* Bright blue hover effect */
 }
 
 /* Banner section */
@@ -51,26 +52,26 @@ nav a:hover {
 
 /* Style the project cards with specific borders, shadows, etc. */
 .project-card {
-  background-color: #fff;
+  background-color: #2a2a2a; /* Dark grey background for project cards */
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
 .project-card h3 {
-  color: #333;
+  color: #1e90ff; /* Blue text for project titles */
   font-size: 1.6em;
 }
 
 .project-card p {
   font-size: 1.1em;
-  color: #666;
+  color: #bbb; /* Light grey text for descriptions */
   line-height: 1.6;
 }
 
@@ -79,15 +80,15 @@ video {
   max-width: 100%;
   border-radius: 5px;
   margin-top: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Style links for project downloads */
 .project-card a {
   display: inline-block;
   margin-top: 15px;
-  background-color: #ffcc00;
-  color: #333;
+  background-color: #1e90ff; /* Blue background for download buttons */
+  color: #333; /* Dark text on blue button */
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -96,7 +97,7 @@ video {
 }
 
 .project-card a:hover {
-  background-color: #e6b800;
+  background-color: #4682b4; /* Darker blue on hover */
 }
 
 /* Add padding and margin for the section */
@@ -115,7 +116,7 @@ video {
 
 /* Footer tweaks for the projects page */
 footer {
-  background-color: #222;
+  background-color: #222; /* Dark grey footer background */
   color: white;
   padding: 20px;
   text-align: center;
@@ -130,7 +131,7 @@ footer .socials a {
 }
 
 footer .socials a:hover {
-  color: #ffcc00;
+  color: #1e90ff; /* Blue hover effect for social links */
 }
 
 /* Responsive Design */
@@ -143,7 +144,6 @@ footer .socials a:hover {
 
   nav li {
     margin-bottom: 5px;
-	
   }
 
   #projects {
