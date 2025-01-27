@@ -6,105 +6,103 @@
   <title>Branden in a Flash: Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  
 </head>
-<body>
+
+  <!-- Begin Body -->
+  <body>
   <header>
     <div class="header-content">
       <h1>Branden Maxwell</h1>
-      <p>Coding the future, One line at a time</p>
-      <nav> <!-- Navigation w/ link to projects.html page -->
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-       <li></li><a href="projects.html">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <p>Coding the future, one line at a time</p>
+      <nav class="navbar">
+        <nav class="navbar">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
-
-<!-- About section -->
-  <section class="about">
+ 
+    <!-- About Section -->
+  <section id="about">
     <h2>About Me</h2>
-   <div class="carousel">
-      <img src="{{ site.baseurl }}/assets/images/professional.png." alt="professional photo">
-      <img src="{{ site.baseurl }}/assets/images/Profile Photo.jpg" alt="hobby photo">
-      <img src="{{ site.baseurl }}/assets/images/shark.jpg" alt="shark photo">
+    <div class="carousel">
+      <img src="assets/images/professional.png" alt="Professional photo">
+      <img src="assets/images/ProfilePhoto.jpg" alt="Hobby photo">
+      <img src="assets/images/shark.jpg" alt="Shark photo">
     </div>
-    <p> Hi, I’m Branden! I’m a junior software developer with experience in Java, Python,
-    .NET, and C++. I recently graduated from Stark State College with an associate degree in business help desk and computer support. I am currently pursuing a degree in Computer Science and Programming and Database design. I enjoy building innovative solutions that make a difference and furthering my knowledge of artificial intelligence. You can find me outdoors fishing, kayaking, or visiting new places in my free time.</p>
+    <p>Hi, I’m Branden! I’m a junior software developer with experience in Java, Python,
+      .NET, and C++. I recently graduated from Stark State College with an associate degree in business help desk and computer support. I am currently pursuing a degree in Computer Science and Programming and Database design. I enjoy building innovative solutions that make a difference and furthering my knowledge of artificial intelligence. You can find me outdoors fishing, kayaking, or visiting new places in my free time.</p>
   </section>
 
   <!-- Education Section -->
   <section id="education">
     <h2>Education</h2>
     <div class="education-container">
-      <!--Degree section-->
       <div class="education-item">
         <h3>Associate Degree</h3>
-      <p><strong>Institution:</strong> Stark State College</p>
-      <p><strong>Major:</strong> Help Desk and Computer Support</p>
-      <p><strong>Minor:</strong> Computer Science</p>
-      <p><strong>Achievements:</strong> Dean's List, President's List</p>
+        <p><strong>Institution:</strong> Stark State College</p>
+        <p><strong>Major:</strong> Help Desk and Computer Support</p>
+        <p><strong>Minor:</strong> Computer Science</p>
+        <p><strong>Achievements:</strong> Dean's List, President's List</p>
       </div>
       <div class="education-item">
-        
-    <!-- Certifications and Courses -->
-    <div class="education-item">
-      <h3>Continuing Education Certifications (CEC)</h3>
-      <ul>
-        <li>Artificial Intelligence Fundamentals</li>
-        <li>Artificial Intelligence</li>
-        <li>Computer Maintenance and Desktop Support</li>
-        <li>Help Desk and Computer User Support</li>
-        <li>Microsoft SQL Server</li>
-      </ul>
+        <h3>Continuing Education Certifications</h3>
+        <ul>
+          <li>Artificial Intelligence Fundamentals</li>
+          <li>Artificial Intelligence</li>
+          <li>Computer Maintenance and Desktop Support</li>
+          <li>Help Desk and Computer User Support</li>
+          <li>Microsoft SQL Server</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!--Contact section-->
- <section id="contact">
-  <h2>Contact Me</h2>
-  <p>If you'd like to get in touch, feel free to send me a message or download my resume below.</p>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to connect, please feel free to send me a message using the form below or download my resume to learn more about my professional background.</p>
 
-  <!-- Contact Form -->
-  <form action="https://formsubmit.co/maxtheflash@yahoo.com" method="POST" class="contact-form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <!-- Resume Section -->
+    <div class="resume-section">
+      <h3>Resume Download</h3>
+      <a href="assets/BrandenMaxwellResume.pdf" download class="resume-button">Download My Resume</a>
+    </div>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    <!-- Contact Form -->
+    <form action="https://formsubmit.co/maxtheflash@yahoo.com" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-    <button type="submit">Send Message</button>
-  </form>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
 
-  <!-- Resume Section -->
-  <div class="resume-section">
-    <h3>Resume Download</h3>
-    <a href="C:\Users\Branden\Portfolio\Portfolio\assets\Branden Maxwell Resume.pdf" download class="resume-button">Download My Resume</a>
-  </div>
-</section>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
   <footer>
-    <!--Added socials to footer-->
-    <p>© 2025 Branden Maxwell</p>
-    
+    <p>&copy; 2025 Branden Maxwell</p>
     <div class="socials">
-    <a href="https://github.com/maxtheflash" target="_blank" aria-label="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://linkedin.com/in/brandenmaxwell" target="_blank" aria-label="LinkedIn">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="https://twitter.com/Maxytheflash" target="_blank" aria-label="Twitter">
-      <i class="fab fa-twitter"></i>
-    
-  </div>
+      <a href="https://github.com/maxtheflash" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/brandenmaxwell" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/Maxytheflash" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
   </footer>
 </body>
 </html>
+
