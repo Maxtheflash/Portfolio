@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+/* Logo Styling */
+#logo {
+  width: 150px;  /* Adjust the size */
+  height: auto;  /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto;
+}
+
 /* Body and General Typography */
 body {
   font-family: Arial, sans-serif;
@@ -68,13 +76,7 @@ nav ul li a:hover {
   background-color: #7FFF00;
 }
 
-/* Logo Styling */
-#logo {
-  width: 150px;  /* Adjust the size */
-  height: auto;  /* Maintain aspect ratio */
-  display: block;
-  margin: 20px auto;
-}
+
 
 /* Header Styles */
 header {
