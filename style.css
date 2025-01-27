@@ -76,8 +76,6 @@ nav ul li a:hover {
   background-color: #7FFF00;
 }
 
-
-
 /* Header Styles */
 header {
   background-color: #161b22; /* Dark grey background */
@@ -85,6 +83,13 @@ header {
   padding: 40px 0;
   text-align: center;
   border-bottom: 2px solid #21262d; /* Slightly lighter grey */
+  /* Logo Styling */
+#logo {
+  width: 300px;  /* Adjust the size */
+  height: 300px;  /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto;
+}
 }
 
 header h1 {
