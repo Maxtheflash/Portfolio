@@ -44,9 +44,9 @@ nav a:hover {
 
 .banner-image {
   width: 100%;
-  height: auto;
+  height: 1200px;
   object-fit: cover;
-  max-height: 400px;
+  max-height: 685px;
 }
 
 /* Style the project cards with specific borders, shadows, etc. */
