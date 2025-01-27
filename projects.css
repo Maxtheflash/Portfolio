@@ -1,9 +1,52 @@
 /* Specific styles for the Projects Page */
 
-/* Change the background color for the projects page */
+/* General body styles */
 body {
   background-color: #f4f4f9;
   font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Banner section */
+#banner-photo {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
 }
 
 /* Style the project cards with specific borders, shadows, etc. */
@@ -11,8 +54,13 @@ body {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px 0;
+  margin: 20px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project-card h3 {
@@ -23,12 +71,32 @@ body {
 .project-card p {
   font-size: 1.1em;
   color: #666;
+  line-height: 1.6;
 }
 
 /* Style the video controls */
 video {
   max-width: 100%;
   border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links for project downloads */
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-card a:hover {
+  background-color: #e6b800;
 }
 
 /* Add padding and margin for the section */
@@ -38,12 +106,53 @@ video {
   max-width: 1200px;
 }
 
+/* Project container for grid layout */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
 /* Footer tweaks for the projects page */
 footer {
   background-color: #222;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
+footer .socials a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+footer .socials a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  #projects {
+    padding: 20px;
+  }
+
+  .project-card {
+    margin: 10px 0;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
