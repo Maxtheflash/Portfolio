@@ -1,0 +1,49 @@
+/* Specific styles for the Projects Page */
+
+/* Change the background color for the projects page */
+body {
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style the project cards with specific borders, shadows, etc. */
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #333;
+  font-size: 1.6em;
+}
+
+.project-card p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Style the video controls */
+video {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Add padding and margin for the section */
+#projects {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Footer tweaks for the projects page */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+}
+

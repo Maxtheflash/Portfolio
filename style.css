@@ -1,20 +1,20 @@
-/* General Styles */
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
-<<<<<<< Updated upstream
   box-sizing: border-box;
 }
 
+/* Body and General Typography */
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text */
+  background-color: #0d1117; /* Dark grey-blue background */
+  color: #f0f6fc; /* Light text */
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-  color: #f4f4f4;
+  color: #f0f6fc;
   margin-bottom: 1rem;
 }
 
@@ -22,37 +22,62 @@ h1 {
   text-align: center;
   margin-top: 2rem;
 }
-
 /* Navigation Bar */
 nav ul {
   display: flex;
   justify-content: center;
   background-color: #333;
   padding: 10rem;
-=======
+
   background-color: #121212; /* Dark background */
   color: #e0e0e0; /* Light text */
 }
 
+
+ f975b43 (added files and corrected syntax)
 /* Header Styles */
 header {
-  background-color: #1f1f1f; /* Slightly lighter dark */
+  background-color: #161b22; /* Dark grey background */
   color: #ffffff;
   padding: 40px 0;
   text-align: center;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #21262d; /* Slightly lighter grey */
 }
 
 header h1 {
-  margin: 0;
   font-size: 2.8em;
-  color: #00ffcc; /* Accent color */
+  color: #58a6ff; /* Bright grey-blue accent */
 }
 
 header p {
   font-size: 1.2em;
-  margin: 10px 0 0;
-  color: #e0e0e0;
+  margin-top: 10px;
+  color: #c9d1d9; /* Muted light grey */
+}
+
+/* Navigation Styles */
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #161b22; /* Dark grey background */
+  margin: 0;
+  padding: 10px 0;
+}
+
+.navbar ul li {
+  padding: 10px 20px;
+}
+
+.navbar ul li a {
+  color: #f0f6fc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #58a6ff; /* Bright grey-blue accent */
 }
 
 /* Section Styles */
@@ -60,63 +85,21 @@ section {
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
-  background-color: #1e1e1e; /* Slightly lighter background for contrast */
+  background-color: #161b22; /* Dark grey background */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 section h2 {
-  color: #00ffcc; /* Accent color for headings */
+  color: #58a6ff; /* Bright grey-blue accent */
   font-size: 1.8em;
   margin-bottom: 10px;
-}
-
-section p {
-  font-size: 1em;
-  line-height: 1.6;
-}
-
-/* Link Styles */
-a {
-  text-decoration: none;
-  color: #00ffcc; /* Accent color */
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #66ffe6;
-}
-
-/* Unordered List Styles */
-ul {
->>>>>>> Stashed changes
-  list-style-type: none;
-}
-
-<<<<<<< Updated upstream
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: #e0e0e0;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-nav ul li a:hover {
-  color: #f4f4f4;
 }
 
 /* Projects Section */
 #projects {
   padding: 2rem 5%;
-  background-color: #1a1a1a;
-}
-
-#projects p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  background-color: #0d1117; /* Dark grey-blue background */
 }
 
 .projects-container {
@@ -126,7 +109,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-  background-color: #333;
+  background-color: #21262d; /* Slightly lighter grey */
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -139,57 +122,38 @@ nav ul li a:hover {
 
 .project-card h3 {
   font-size: 1.6rem;
+  color: #f0f6fc;
   margin-bottom: 1rem;
-  color: #e0e0e0;
 }
 
 .project-card p {
   font-size: 1rem;
-  color: #c7c7c7;
+  color: #c9d1d9; /* Muted light grey */
   margin-bottom: 1.5rem;
 }
 
-.project-card img {
+.project-card img, .project-card video {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 1.5rem;
 }
 
-.project-card video {
-  max-width: 100%;
-  margin-bottom: 1.5rem;
-}
-
 .project-card a {
-  color: #4caf50;
+  color: #58a6ff; /* Bright grey-blue accent */
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s;
 }
 
 .project-card a:hover {
-  color: #66bb6a;
+  color: #79c0ff; /* Slightly lighter grey-blue accent */
 }
 
-/* Features List */
-.project-card ul {
-  list-style-type: none;
-  margin-top: 1.5rem;
-}
-
-.project-card ul li {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-}
-
-.project-card ul li strong {
-  color: #4caf50;
-}
-
-/* Footer Section */
+/* Footer Styles */
 footer {
-  background-color: #333;
-  color: #e0e0e0;
+  background-color: #161b22; /* Dark grey background */
+  color: #f0f6fc;
   padding: 1.5rem 0;
   text-align: center;
 }
@@ -203,142 +167,18 @@ footer .socials {
 }
 
 footer .socials a {
-  color: #e0e0e0;
+  color: #f0f6fc;
   margin: 0 10px;
   text-decoration: none;
   font-size: 1.2rem;
+  transition: color 0.3s;
 }
 
 footer .socials a:hover {
-  color: #f4f4f4;
+  color: #58a6ff; /* Bright grey-blue accent */
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  .projects-container {
-    grid-template-columns: 1fr;
-  }
-
-  .project-card {
-    padding: 1rem;
-  }
-=======
-ul li {
-  margin: 10px 0;
-  font-size: 1.1em;
-}
-
-/* Footer Styles */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #1f1f1f; /* Footer matches the header */
-  color: #999999;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px solid #333;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  section {
-    padding: 15px;
-    margin: 10px;
-  }
-
-  header h1 {
-    font-size: 2em;
-  }
-
-  header p {
-    font-size: 1em;
-  }
-  
-
-/* Carousel Styling */
-.carousel {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-}
-
-.carousel-photo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
-}
-
-.carousel-photo.hidden {
-  opacity: 0;
-}
-
-
-#education {
-  padding: 50px 20px;
-  background-color: #2c2c3e;
-  color: #fff;
-  text-align: center;
-}
-
-.education-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.education-item {
-  background-color: #3a3a5c;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-}
-
-.education-item h3 {
-  margin: 0 0 10px;
-  color: #a5d6ff;
-  font-size: 1.5em;
-}
-
-.education-item p {
-  margin: 5px 0;
-  font-size: 1em;
-  line-height: 1.6;
-}
-
-.education-item ul {
-  list-style-type: disc;
-  margin: 10px 0 0 20px;
-  text-align: left;
-}
-
-.education-item ul li {
-  margin-bottom: 5px;
-  font-size: 0.95em;
-}
-
-#contact {
-  padding: 50px 20px;
-  background-color: #1f1f2e;
-  color: #fff;
-  text-align: center;
-}
-
+/* Contact Form Styles */
 .contact-form {
   max-width: 600px;
   margin: 20px auto;
@@ -349,23 +189,25 @@ footer p {
 
 .contact-form label {
   font-weight: bold;
-  text-align: left;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input, .contact-form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #555;
+  border: 1px solid #30363d; /* Grey-blue border */
   border-radius: 5px;
-  background-color: #2c2c3e;
-  color: #fff;
+  background-color: #0d1117; /* Dark grey-blue background */
+  color: #f0f6fc;
   font-size: 1em;
 }
 
+.contact-form textarea {
+  min-height: 150px;
+}
+
 .contact-form button {
-  background-color: #a5d6ff;
-  color: #1f1f2e;
+  background-color: #58a6ff; /* Bright grey-blue accent */
+  color: #0d1117; /* Dark background */
   border: none;
   padding: 10px 20px;
   font-size: 1em;
@@ -376,16 +218,13 @@ footer p {
 }
 
 .contact-form button:hover {
-  background-color: #89b8e6;
+  background-color: #79c0ff; /* Slightly lighter grey-blue accent */
 }
 
-.resume-section {
-  margin-top: 30px;
-}
-
+/* Resume Button */
 .resume-button {
   display: inline-block;
-  background-color: #4caf50;
+  background-color: #4caf50; /* Green accent */
   color: white;
   padding: 10px 20px;
   font-size: 1em;
@@ -399,23 +238,31 @@ footer p {
   background-color: #45a049;
 }
 
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 15px;
+    margin: 10px;
+  }
 
-  /* Socials Section */
-  
-footer .socials {
-  margin-top: 10px;
-}
+  header h1 {
+    font-size: 2em;
+  }
 
-footer .socials a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #00ffcc; /* Accent color for icons */
-  font-size: 1.5em;
-  transition: color 0.3s ease;
-}
+  header p {
+    font-size: 1em;
+  }
+
 
 footer .socials a:hover {
   color: #66ffe6; /* Lighter shade for hover effect */
-}
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
 
 }
