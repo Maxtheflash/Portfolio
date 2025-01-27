@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< Updated upstream
+
   box-sizing: border-box;
 }
 
@@ -89,11 +89,11 @@ a:hover {
 
 /* Unordered List Styles */
 ul {
->>>>>>> Stashed changes
+
   list-style-type: none;
 }
 
-<<<<<<< Updated upstream
+
 nav ul li {
   margin: 0 15px;
 }
@@ -222,7 +222,7 @@ footer .socials a:hover {
   .project-card {
     padding: 1rem;
   }
-=======
+
 ul li {
   margin: 10px 0;
   font-size: 1.1em;
