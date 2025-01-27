@@ -20,7 +20,16 @@ body {
   color: #f0f6fc; /* Light text */
   line-height: 1.6;
 }
-
+/* Style for the sticky logo */
+.logo {
+  position: sticky; /* Sticky positioning */
+  top: 0; /* Sticks to the top of the viewport */
+  left: 0; /* Aligns with the left side */
+  width: 100px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 10; /* Ensures the logo stays above other elements */
+  padding: 10px; /* Optional padding for some space around the logo */
+}
 h1, h2, h3, h4 {
   color: #f0f6fc;
   margin-bottom: 1rem;
